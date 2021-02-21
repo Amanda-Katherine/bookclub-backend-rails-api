@@ -1,4 +1,4 @@
-![On The Same Page](./bookclub-frontend-javascript/styles/images/Cover-Photo--On-the-Same-Page.png)
+![On The Same Page](./public/Cover-photo.png)
 
 # On The Same Page
 
