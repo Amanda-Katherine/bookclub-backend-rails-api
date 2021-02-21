@@ -2,26 +2,32 @@
 
 # On The Same Page
 
-On The Same Page is an application where book clubs can come together to find their next book. Members can suggest new books and vote on ones suggested. Future versions will include Club creation, Member login, and show when and where the next Meeting will be.
+_On The Same Page_ is an application where book clubs can come together to find their next book. Members can suggest new books and vote on ones suggested.
 
-This is an SPA made with vanilla JavaScript on the frontend and a Rails API as the backend. Additional functionality includes Google Books API.
+This is an SPA made with Google Books API, vanilla JavaScript, and the Rails API.
 
-You can find the frontend repo here.
+You can find the frontend [repo](https://github.com/Amanda-Katherine/bookclub-frontend-javascript) here.
 
 ## Installation
 
 To run this application in your local environment, please follow these steps:
 
-1. Clone this repository
-2. Run 'bundle install'
-3. Run 'rails db:create:all'
-4. Run 'rails db:migrate'
-5. Run 'rails db:seed'
-6. Run 'rails s'
+1. Clone this repository **_and_** and frontend [repo](https://github.com/Amanda-Katherine/bookclub-frontend-javascript)
+2. In the **backend repo** do steps 3-7
+3. Run 'bundle install'
+4. Run 'rails db:create:all'
+5. Run 'rails db:migrate'
+6. Run 'rails db:seed'
+7. Run 'rails s'
+8. In the **frontend repo** open the index.html file. _For mac users just type in 'open index.html' in your terminal._
 
 ## Authors
 
 - All contributions by [Amanda Brubaker](https://github.com/Amanda-Katherine)
+
+## Future Versions
+
+_Version 2.0 will include group creation, member admin capabilities (reset votes, privatize groups), and a member page where readers can create their own personal book lists._
 
 ## License
 
