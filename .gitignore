@@ -25,3 +25,9 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+#heroku url created for backend:
+https://ancient-inlet-33668.herokuapp.com/
+
+followed this website for deployment:
+https://medium.com/@angelospmusic/heroku-rails-api-javascript-front-end-9dfc06663624
