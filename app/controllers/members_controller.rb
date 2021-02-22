@@ -1,9 +1,9 @@
 class MembersController < ApplicationController
     def index
-        @members = Member.all
+        members = Member.all
         
-        if @members
-            render json: {members: @members}
+        if members
+            render json: members
         else
             render json: {
                 status: 500,
