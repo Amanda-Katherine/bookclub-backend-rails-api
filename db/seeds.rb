@@ -24,7 +24,7 @@ Member.create(first_name: "Joe", last_name: "Montana", email: "fake_email10@fake
 Member.create(first_name: "Al", last_name: "Horford", email: "fake_email11@fake.com", password: "password", book_group_id: "2")
 Member.create(first_name: "Ryan", last_name: "Fitzpatrick", email: "fake_email12@fake.com", password: "password", book_group_id: "2")
 Member.create(first_name: "Gardner", last_name: "Minshew", email: "fake_email13@fake.com", password: "password", book_group_id: "3")
-
+Member.create(first_name: "Guest", last_name: "Login", email: "guest_login@guest.com", password: "guestpass", book_group_id: "1")
 
 Gathering.create(host: "Larry", date: "11/15/20", address: "123 Cardinal St, Phoenix, AZ 01010", time: "7:30 PM", book_group_id: "1", book_id: "1")
 Gathering.create(host: "Megan", date: "11/10/20", address: "456 Sound Ave, Seattle, WA 02341", time: "6:45 PM", book_group_id: "2", book_id: "5")
