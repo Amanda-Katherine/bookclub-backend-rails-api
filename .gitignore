@@ -34,3 +34,8 @@ https://priceless-swanson-0ba84f.netlify.app/
 
 followed this website for deployment:
 https://medium.com/@angelospmusic/heroku-rails-api-javascript-front-end-9dfc06663624
+
+#guest login credentials
+guest login:
+guest_login@guest.com
+pass: guestpass

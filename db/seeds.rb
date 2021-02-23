@@ -34,7 +34,6 @@ Gathering.create(host: "Gardner", date: "1/2/21", address: "8 Jaguar Ct, Jackson
 Gathering.create(host: "Ryan", date: "12/17/20", address: "76 Dolphin Loop, Miami, FL, 23452", time: "7:15 PM", book_group_id: "2", book_id: "4")
 Gathering.create(host: "Sue", date: "11/15/20", address: "76 Stormy Way, Seattle, WA, 02341", time: "6:00 PM", book_group_id: "4", book_id: "6")
 
-
 Suggestion.create(book_id: "6", book_group_id: "1")
 Suggestion.create(book_id: "1", book_group_id: "2", vote: "7")
 Suggestion.create(book_id: "1", book_group_id: "3", vote: "4")

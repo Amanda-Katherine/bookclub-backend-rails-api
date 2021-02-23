@@ -8,10 +8,9 @@ class SessionsController < ApplicationController
         .try(:authenticate, session_params[:password])
         if @member 
             login!
-            # binding.pry
             render json: {
                 logged_in: true,
-                member: @member,
+                member_id: @member.id,
                 session: session
             },
             status: :created 
