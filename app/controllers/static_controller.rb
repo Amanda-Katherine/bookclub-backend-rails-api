@@ -1,5 +1,5 @@
 class StaticController < ApplicationController
     def home
-        render json: "This is the homepage. Navigate to books, members, or book_groups."
+        render json: "Welcome to the homepage. Navigate to /books, /members, /suggestions, or /book_groups."
     end
 end
