@@ -13,5 +13,5 @@ Rails.application.routes.draw do
 
 
   # for own user auth
-  # root to: "static#home"
+  root to: "static#home"
 end
