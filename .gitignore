@@ -39,3 +39,6 @@ https://medium.com/@angelospmusic/heroku-rails-api-javascript-front-end-9dfc0666
 guest login:
 guest_login@guest.com
 pass: guestpass
+
+#heroku commands
+to enter rails c and delete a record: 'heroku run rails c'
