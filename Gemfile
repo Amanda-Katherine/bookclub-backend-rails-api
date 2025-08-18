@@ -5,12 +5,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.2.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.1.0'
+gem 'rails', '~> 7.1.0'
 
 # Use postgresql as the database for Active Record
 # gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 6.4'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'active_model_serializers', '~> 0.10.0'
 # gem 'jbuilder', '~> 2.7'
@@ -45,8 +45,8 @@ end
 group :development do
   gem 'listen', '~> 3.2'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  # gem 'spring'
+  # gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
 group :production do
