@@ -42,3 +42,6 @@ pass: guestpass
 
 #heroku commands
 to enter rails c and delete a record: 'heroku run rails c'
+
+
+/config/credentials/production.key

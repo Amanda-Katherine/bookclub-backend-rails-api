@@ -79,7 +79,7 @@ test:
 #
 production:
   <<: *default
-  # database: bookclub_backend_rails_production
-  # username: bookclub_backend_rails
-  # password: <%= ENV['BOOKCLUB_BACKEND_RAILS_DATABASE_PASSWORD'] %>
+  database: bookclub_backend_rails_production
+  username: bookclub_backend_rails
+  password: <%= ENV['BOOKCLUB_BACKEND_RAILS_DATABASE_PASSWORD'] %>
   url: <%= ENV['DATABASE_URL'] %>

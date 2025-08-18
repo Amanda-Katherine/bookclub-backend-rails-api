@@ -1,0 +1,2 @@
+release: bundle install && rails db:create && rails db:migrate && rails db:seed
+web: bundle exec rails server -p $PORT -e $RAILS_ENV
